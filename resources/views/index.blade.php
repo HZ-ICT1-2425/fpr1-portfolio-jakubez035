@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Jakub Holík - Main Page"/>
+        <link href={{asset("styles/skeleton.css")}} rel="stylesheet" />
+        <title>Jakub Holík</title>
+    </head>
+
+    <body style="background-color: white;">
+        @include('partials.nav')
+        @include('partials.sidenav')
+
+        <section style="display: flex; align-items: center; justify-content: center;">
+            <div style="height: 300px; position: relative; width: 100%; overflow: hidden;">
+                <img id="welcomeImage" src="https://www.chromethemer.com/download/hd-wallpapers/galaxy-3840x2160.jpg"
+                     alt="Welcome Image"
+                     style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; opacity: 85%; transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2,1);transition-duration: 150ms; transition-duration: 2000ms;">
+                <img id="welcomeImage2" src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D"
+                     alt="Welcome Image"
+                     style="position: absolute; inset: 0px; width: 100%; height: 100%; object-fit: cover; opacity: 0%; transition-property: opacity; transition-timing-function: cubic-bezier(0.4, 0, 0.2,1);transition-duration: 150ms; transition-duration: 2000ms;">
+                <div style="position: absolute; inset: 0px; display: flex; align-items: center; justify-content: center;">
+                    <h1 style="font-size: 40px; text-align: center; font-weight: bolder;
+                            background: linear-gradient(90deg, #ff00c3,#4900c7, #ff0077);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">
+                        - How do you call a person that used to be fat? <br>
+                        - ExFAT!
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <main>
+            <section
+                style="display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding: 16px; align-items: start;">
+                <article style="padding: 16px; width: 50%;">
+                    <h1 style="color: black; text-align: center; font-size: 30px; font-weight: bold; padding-bottom: 16px;">
+                        Why ICT?</h1>
+                    <p style="text-align: justify; font-size: 18px;">A lot of people usually choose ICT field, because it
+                        pays well and I'm not different. Since I was a little kid I always wanted to make a lot of money, so
+                        I could buy expensive cars and travel all over the world. I've always been trying to find ways to
+                        earn money or to invest money. Well why didn't you choose business then? That's a good question. I
+                        haven't chosen business, because I find it too monotonous. You learn different strategies and
+                        methods you can apply, but there's not much of problem solving and logical thinking, which I think
+                        is more important in todays world. And if for whatever reason I failed with my business, I will
+                        always have the knowledge of programming I can apply in the world and earn a pretty large sum of
+                        money.</p>
+                </article>
+
+                <article style="padding: 16px; width: 50%;">
+                    <h1 style="color: black; text-align: center; font-size: 30px; font-weight: bold; padding-bottom: 16px;">
+                        Logical obstacles</h1>
+                    <p style="text-align: justify; font-size: 18px;">As I mentioned earlier ICT comes with a great dose of
+                        problem solving and logical thinking which I love. Ranging from real life problems through math to
+                        programming, there are problems everywhere and I can't say no to them. During my high school years
+                        math and informatics were my passion and they still are. They taught me a lot about ways you can
+                        approach a problem, see different perspectives, research and learn. The problems I couldn't figure
+                        out were the best, because the more time and effort it took me to find a solution, the better the
+                        feeling of accomplishment was. I believe ICT can expand on these skills and yet again show me a
+                        different perspective along with a new skillset.</p>
+                </article>
+            </section>
+        </main>
+
+        <div
+            style="background-image: url(https://t3.ftcdn.net/jpg/05/04/70/88/360_F_504708859_U9PtI4cCanponR5HrsI7Cna9841UTDFb.jpg); background-size: cover; background-position: center; width: 100%; background-repeat: no-repeat; height:400px; display: flex;">
+
+            <div
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 50%; height: 100%; color: white;">
+
+                <h2 style="text-align: center; margin-bottom: 16px; font-weight: bold; font-size: 30px;">ICT includes</h2>
+
+                <ul style="list-style-type: disc; list-style-position: inside; text-align: left; font-size: 18px;">
+                    <li>Web development</li>
+                    <li>Game development</li>
+                    <li>Database creation</li>
+                    <li>Problem solving exercises</li>
+                </ul>
+            </div>
+        </div>
+
+        @include('partials.footer')
+
+    </body>
+
+</html>
