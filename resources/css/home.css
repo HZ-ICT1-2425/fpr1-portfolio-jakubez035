@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container {
+    height: 300px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#welcomeImage,
+#welcomeImage2 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#welcomeImage {
+    opacity: 0.85;
+}
+
+#welcomeImage2 {
+    opacity: 0;
+}
+
+.welcome-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(90deg, #ff00c3, #4900c7, #ff0077);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 16px;
+    align-items: start;
+}
+
+article {
+    padding: 16px;
+    width: 50%;
+}
+
+article h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+article p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.bg-section {
+    background-image: url(https://t3.ftcdn.net/jpg/05/04/70/88/360_F_504708859_U9PtI4cCanponR5HrsI7Cna9841UTDFb.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+}
+
+.bg-section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    color: white;
+}
+
+.bg-section h2 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bg-section ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    font-size: 18px;
+}

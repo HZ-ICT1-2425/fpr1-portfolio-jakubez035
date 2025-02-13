@@ -31,10 +31,26 @@
     "file": "assets/fa-v4compatibility-C9RhG_FT.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
+  "resources/css/home.css": {
+    "file": "assets/home-D8UBtJrE.css",
+    "src": "resources/css/home.css",
+    "isEntry": true
+  },
+  "resources/css/skeleton.css": {
+    "file": "assets/skeleton-YhdJMn2w.css",
+    "src": "resources/css/skeleton.css",
+    "isEntry": true
+  },
   "resources/js/app.js": {
     "file": "assets/app-Xaw6OIO1.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/homepageimages.js": {
+    "file": "assets/homepageimages-3GcqoOE1.js",
+    "name": "homepageimages",
+    "src": "resources/js/homepageimages.js",
     "isEntry": true
   },
   "resources/sass/app.scss": {
