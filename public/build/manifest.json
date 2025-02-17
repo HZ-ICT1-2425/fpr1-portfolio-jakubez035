@@ -31,8 +31,18 @@
     "file": "assets/fa-v4compatibility-C9RhG_FT.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-C5cGNYs2.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true
+  },
+  "resources/css/faq.css": {
+    "file": "assets/faq-SFuJc49v.css",
+    "src": "resources/css/faq.css",
+    "isEntry": true
+  },
   "resources/css/home.css": {
-    "file": "assets/home-D8UBtJrE.css",
+    "file": "assets/home-oq7Z00sU.css",
     "src": "resources/css/home.css",
     "isEntry": true
   },
@@ -47,10 +57,22 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
+  "resources/js/creditcalculator.js": {
+    "file": "assets/creditcalculator-Cl_y2CL9.js",
+    "name": "creditcalculator",
+    "src": "resources/js/creditcalculator.js",
+    "isEntry": true
+  },
   "resources/js/homepageimages.js": {
     "file": "assets/homepageimages-3GcqoOE1.js",
     "name": "homepageimages",
     "src": "resources/js/homepageimages.js",
+    "isEntry": true
+  },
+  "resources/js/schoolyear.js": {
+    "file": "assets/schoolyear-DWM_lZ3j.js",
+    "name": "schoolyear",
+    "src": "resources/js/schoolyear.js",
     "isEntry": true
   },
   "resources/sass/app.scss": {
