@@ -31,8 +31,13 @@
     "file": "assets/fa-v4compatibility-C9RhG_FT.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
+  "resources/css/blog.css": {
+    "file": "assets/blog-dPfOrLyk.css",
+    "src": "resources/css/blog.css",
+    "isEntry": true
+  },
   "resources/css/dashboard.css": {
-    "file": "assets/dashboard-C5cGNYs2.css",
+    "file": "assets/dashboard-Broq0iW4.css",
     "src": "resources/css/dashboard.css",
     "isEntry": true
   },
@@ -44,6 +49,11 @@
   "resources/css/home.css": {
     "file": "assets/home-oq7Z00sU.css",
     "src": "resources/css/home.css",
+    "isEntry": true
+  },
+  "resources/css/show-blog.css": {
+    "file": "assets/show-blog-CgddknGs.css",
+    "src": "resources/css/show-blog.css",
     "isEntry": true
   },
   "resources/css/skeleton.css": {

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\View\View;
 use App\Models\Quarter;
 use App\Models\Assessment;
+use App\Models\Blog;
 
 class StaticContentController extends Controller
 {
@@ -33,5 +34,10 @@ class StaticContentController extends Controller
 
         // Pass the data to the dashboard and reroute to the dashboard.blade.php
         return view('dashboard', compact('quarters', 'totalCredits'));
+    }
+
+    public function blog(): View{
+        $blogs = Blog::all();
+        return view('blog', compact('blogs'));
     }
 }
