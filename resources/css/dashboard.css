@@ -1,0 +1,97 @@
+/* Table styles */
+.table-completed {
+    background-color: #d1fae5; /* bg-green-100 */
+}
+
+.table-pending {
+    background-color: #fef9c3; /* bg-yellow-100 */
+}
+
+.table-failed{
+    background-color: #fee2e2; /* bg-red-100 */
+}
+
+/* Dashboard Table styles */
+.dashboard-tables {
+    box-shadow: 0 10px 15px -3px gray, 0 4px 6px -2px gray;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dashboard-q1-tables {
+    background-color: #eff6ff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+}
+
+.dashboard-q1-tables-headings{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.dashboard-q1-tables table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.dashboard-q1-tables table th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.dashboard-q1-tables table td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-width: 1px;
+}
+
+.dashboard-tables table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.dashboard-tables table th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.dashboard-tables table td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-width: 1px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* One column */
+    gap: 16px;
+}
+
+.dashboard-tables-headings{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* Diff devices */
+@media (min-width: 768px /*iPad Mini*/) {
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+    }
+}
