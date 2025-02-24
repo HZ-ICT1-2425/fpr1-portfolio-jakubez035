@@ -9,35 +9,27 @@ use App\Models\Blog;
 
 class StaticContentController extends Controller
 {
+    /**
+     * @return View
+     */
     public function index(): View
     {
         return view('index');
     }
 
+    /**
+     * @return View
+     */
     public function profile(): View
     {
         return view('profile');
     }
 
+    /**
+     * @return View
+     */
     public function faq(): View
     {
         return view('faq');
-    }
-
-    public function dashboard(): View
-    {
-        // Fetches all quarters with related data (courses and assessments in this case)
-        $quarters = Quarter::with('courses.assessments')->get();
-
-        // Fetches all the credits from the passed assessments
-        $totalCredits = Assessment::where('condition', 'Passed')->sum('points');
-
-        // Pass the data to the dashboard and reroute to the dashboard.blade.php
-        return view('dashboard', compact('quarters', 'totalCredits'));
-    }
-
-    public function blog(): View{
-        $blogs = Blog::all();
-        return view('blog', compact('blogs'));
     }
 }

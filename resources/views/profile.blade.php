@@ -1,9 +1,6 @@
 @extends('layouts.main-layout')
 
 @section('body')
-    @include('partials.nav')
-    @include('partials.sidenav')
-
     <section style="display: flex; align-items: center; justify-content: space-between;">
         <div style="width: 50%; text-align: center;">
             <h1 style="font-size: 60px; color: black; font-weight: bold; padding: 12px;">Hello! I'm Jakub Holík</h1>
@@ -34,6 +31,4 @@
         </section>
 
     </main>
-
-    @include('partials.footer')
 @endsection

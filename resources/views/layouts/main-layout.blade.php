@@ -10,7 +10,10 @@
     </head>
 
     <body>
+        @include('partials.nav')
+        @include('partials.sidenav')
         @yield('body')
+        @include('partials.footer')
     </body>
 
 </html>

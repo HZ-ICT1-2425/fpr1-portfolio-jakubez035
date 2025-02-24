@@ -2,8 +2,6 @@
 @vite(['resources/css/dashboard.css', 'resources/js/creditcalculator.js', 'resources/js/schoolyear.js'])
 
 @section('body')
-    @include('partials.nav')
-    @include('partials.sidenav')
     <!--School year progress bar-->
     <h1 style="text-align: center; margin-top: 16px; font-weight: bold; font-size: 24px;">School year so far!</h1>
     <div style="width: 90%; margin-left: auto; margin-right: auto; padding: 16px;">
@@ -61,7 +59,4 @@
             </div>
         </div>
     @endforeach
-
-    @include('partials.footer')
-
 @endsection

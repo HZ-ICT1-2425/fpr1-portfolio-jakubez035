@@ -2,12 +2,9 @@
 @vite('resources/css/blog.css')
 
 @section('body')
-    @include('partials.nav')
-    @include('partials.sidenav')
-
     <main>
         @foreach ($blogs as $blog)
-            <a href="{{ route('show-blog', ['id' => $blog->id]) }}" style="text-decoration: none; color: black;">
+            <a href="{{ route('show-blog', ['uri' => $blog->uri]) }}" style="text-decoration: none; color: black;">
                 <section>
                     <div class="zoom-in">
                         <img class="blog-image" src="{{ $blog->image }}" alt="{{ $blog->title }}">
@@ -19,5 +16,4 @@
     </main>
 
     <div style="height: 100px;"></div>
-    @include('partials.footer')
 @endsection

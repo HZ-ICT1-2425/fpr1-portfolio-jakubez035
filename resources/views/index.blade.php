@@ -2,10 +2,6 @@
 @vite(['resources/css/home.css', 'resources/js/homepageimages.js'])
 
 @section('body')
-    @include('partials.nav')
-    @include('partials.sidenav')
-
-
     <section class="image-section">
         <div class="welcome-container">
             <img id="welcomeImage" src="https://www.chromethemer.com/download/hd-wallpapers/galaxy-3840x2160.jpg" alt="Welcome Image">
@@ -55,6 +51,4 @@
             </ul>
         </div>
     </div>
-
-    @include('partials.footer')
 @endsection

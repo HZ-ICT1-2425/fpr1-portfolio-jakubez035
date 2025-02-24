@@ -2,9 +2,6 @@
 @vite(['resources/css/faq.css'])
 
 @section('body')
-    @include('partials.nav')
-    @include('partials.sidenav')
-
     <script>
         // Function to toggle visibility based on the answer ID
         function toggleAnswer(answerId) {
@@ -74,8 +71,6 @@
             you can then get an exit card at the JRCZ service desk.</p>
     </div>
 
-    <div style="height: 250px;">
-
-    </div>
+    <div style="height: 250px;"><div>
 @endsection
 
